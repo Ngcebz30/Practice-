@@ -1,1 +1,2 @@
-# Practice Repository - Full-Stack Engineering
+# Practice Repository
+As a Full-Stack Engineer
