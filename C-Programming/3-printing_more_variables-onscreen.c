@@ -15,7 +15,7 @@ int main(void)
 	printf("Salary_1: %f \n", a);
 	printf("Salary_2: %f \n", b);
 	printf("Salary_3: %f \n", c);
-	printf("The sum of all the salaries combined: %f\n", d);
+	printf("The sum of all the salaries combined: %lf\n", d);
 
 	return (0);
 }
