@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Simon Game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1><img src="http://fs5.directupload.net/images/160914/p68b6kw5.png" alt="Simon" /></h1>
+	<div id="circle-container">
+ 	 	<div class="quarter" id="top-left" onclick="quarterClicked(this.id)"></div>
+ 	 	<div class="quarter" id="top-right" onclick="quarterClicked(this.id)"></div>
+  	 	<div class="quarter" id="bottom-left" onclick="quarterClicked(this.id)"></div>
+ 	 	<div class="quarter" id="bottom-right" onclick="quarterClicked(this.id)"></div>
+ 	 	<div id="inner">
+    	 	<div id="button-container">
+     	 	<button class="round-button" id="go" onclick="goButtonClicked()" title="Click to start or restart the game">GO!</button>
+     	 	<div id="display">--</div>
+    	</div>
+ 	</div>
+	</div>
+	<div class="onoffswitch">
+ 	<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+ 	<label class="onoffswitch-label" for="myonoffswitch">
+           	 <span class="onoffswitch-inner" onclick="toggleStrictMode()" title="Click to toggle strict mode"></span>
+           	 <span class="onoffswitch-switch" onclick="toggleStrictMode()" title="Click to toggle strict mode"></span>
+       	</label>
+	</div>
+</body>
+
+<footer>
+	<p>&copy;, 2023 Ngcebz. All Right Reserved.</p>
+</footer>
+
+</html>
+
