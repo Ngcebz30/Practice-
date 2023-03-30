@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 48, 1);
+}
+
+canvas{
+  position: absolute;
+  top: -webkit-calc(50% - 250px);
+  top: calc(50% - 250px);
+  left: -webkit-calc(50% - 300px);
+  left: calc(50% - 300px);
+  width: 600px;
+  height: 600px;
+}
+
+div{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #fff;
+  font-size: 40px;
+  font-family: Arial;
+}
+
+span{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: #666;
+  font-size: 13px;
+  font-family: Arial;
+}
+
+span a{
+  text-decoration: none;
+  color: #0579f5;
+}
