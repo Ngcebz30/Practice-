@@ -1,0 +1,1 @@
+The command to quit vi even though latest changes have not been saved for this vi call: :q!
